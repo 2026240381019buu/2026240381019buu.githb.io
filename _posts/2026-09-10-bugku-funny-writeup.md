@@ -1,6 +1,6 @@
 ---
 title: 【Bugku CTF Writeup】Web-滑稽
-date: 2026-09-10 10:00:00
+date: 2026-09-10 20:00:00
 tags:
   - CTF
   - Bugku
