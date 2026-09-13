@@ -1,16 +1,13 @@
 ---
-
 title: 【Bugku CTF Writeup】Web-GET（HTTP GET 请求传参）
 date: 2026-09-13 16:00:00
 tags:
-
-· CTF
-· Bugku
-· Writeup
-· Web安全
-  categories:
-· 网络安全
-
+  - CTF
+  - Bugku
+  - Writeup
+  - Web安全
+categories:
+  - 网络安全
 ---
 
 一、题目信息
