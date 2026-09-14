@@ -1,9 +1,15 @@
 ---
+layout: post
+title: "2026-09-14 Bugku CTF 「矛盾」- PHP 弱类型比较绕过 Writeup"
+date: 2026-09-14 15:00:00 +0800
+categories: CTF Writeup
+tags: [Bugku, PHP, 弱类型, Writeup]
+---
 
-```markdown
 # Bugku CTF - PHP 弱类型比较 (Web) Writeup
 
 ## 1. 题目信息
+...
 - **平台**: Bugku CTF
 - **题目类型**: Web / PHP 代码审计
 - **考点**: PHP 弱类型比较 (`==`)、`is_numeric()` 函数的绕过
