@@ -1,12 +1,22 @@
-CTF Writeup: PHP 弱类型比较绕过（POST 请求）
+---
+layout: post
+title: 2026-09-14 Bugku CTF 「矛盾」 - PHP 弱类型比较绕过 Writeup
+date: 2026-09-14 15:00:00 +0800
+categories: CTF Writeup
+tags: [Bugku, PHP, 弱类型, Writeup]
+---
 
-一、 题目信息
+# Bugku CTF - PHP 弱类型比较 (Web) Writeup
 
-· 题目类型：Web / PHP 代码审计
-· 目标 URL：http://160.202.254.160:19246
-· 考察知识点：PHP 弱类型比较（Loose Comparison）、数组绕过、HTTP POST 请求。
+## 1. 题目信息
 
-二、 题目源码分析
+*   **平台**：Bugku CTF
+*   **题目名称**：矛盾
+*   **题目类型**：Web / PHP 代码审计
+*   **考察知识点**：PHP 弱类型比较（Loose Comparison）、数组绕过、HTTP POST 请求。
+*   **目标 URL**：`http://160.202.254.160:19246`
+
+## 2. 题目源码分析
 
 访问目标网址，页面回显了一段核心 PHP 代码：
 
@@ -18,7 +28,6 @@ if($what == 'flag') {
     echo 'flag{****}';
 }
 ?>
-```
 
 代码逻辑解读：
 
