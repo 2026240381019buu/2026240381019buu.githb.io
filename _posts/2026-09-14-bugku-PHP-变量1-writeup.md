@@ -1,4 +1,3 @@
-```markdown
 ---
 layout: post
 title: "2026-09-14 Bugku CTF 「变量1」- 超全局变量与 eval 绕过 Writeup"
