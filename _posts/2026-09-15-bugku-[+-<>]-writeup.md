@@ -1,12 +1,14 @@
-【Bugku CTF Writeup】Crypto-Brainfuck（Brainfuck 解密）
-一、题目信息
-题目名称：Brainfuck
-
-题目类型：Crypto / MISC（密码学 / 杂项）
-
-靶场来源：Bugku CTF
-
-考察知识点：Brainfuck 语言识别、在线解释器使用、深奥语言解密
+---
+title: 【Bugku CTF Writeup】Crypto-Brainfuck (Brainfuck 解密)
+date: 2026-09-15 10:00:00 +0800
+tags:
+  - CTF
+  - Bugku
+  - Writeup
+  - Crypto
+categories:
+  - 网络安全
+---
 
 二、题目密文
 题目给出的密文为：
