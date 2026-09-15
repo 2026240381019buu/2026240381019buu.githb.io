@@ -30,37 +30,6 @@ categories:
 5. **`categories`**：同样用缩进列表，也可以直接写一行 `categories: 网络安全`。
 6. **文件名**：建议和 `date` 对应，例如 `2026-09-14-bugku-这是一张单纯的图片-writeup.md`。
 
-### 如果你想批量生成
-
-如果你在写多篇 Bugku writeup，可以用这个通用模板：
-
-```markdown
----
-title: 【Bugku CTF Writeup】MISC-题目名称
-date: 2026-09-14 15:00:00 +0800
-tags:
-  - CTF
-  - Bugku
-  - Writeup
-  - MISC
-categories:
-  - 网络安全
----
-
-## 一、题目信息
-
-- **题目名称**：
-- **题目类型**：
-- **靶场来源**：Bugku CTF
-- **考察知识点**：
-
-## 二、解题过程
-
-### 1. 观察题目
-
-### 2. 分析线索
-
-### 3. 解码/提取
 
 ## 三、最终答案
 
